@@ -1,0 +1,142 @@
+    body {
+        background: url("../images/bg2.jpg") no-repeat center center/cover;
+        background-size: cover;
+        overflow: hidden;
+        height: 620px;
+    }
+    /* Header Section */
+    
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 25px;
+        top: 0px;
+    }
+    
+    .left img {
+        width: 70px;
+    }
+    
+    .right {
+        right: 45px;
+        top: 18px;
+        position: absolute;
+        display: inline-block;
+    }
+    
+    .mid {
+        display: block;
+        margin: 0px 240px;
+        width: 48%;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 1.38rem;
+    }
+    
+    .navbar li a {
+        text-decoration: none;
+        cursor: pointer;
+        color: aliceblue;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(121, 118, 118);
+        font-size: 1.68rem;
+    }
+    /* Moto Section */
+    
+    .motoinfo p {
+        padding-top: 100px;
+        width: 540px;
+        height: 150px;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: black;
+        font-size: 1.5rem;
+        margin-left: 40px;
+    }
+    
+    .btn1 {
+        margin-top: 240px;
+        margin-left: 230px;
+        width: 220px;
+        height: 55px;
+    }
+    
+    .color {
+        font-size: 1.5rem;
+        text-decoration: none;
+        outline: none;
+        color: aliceblue;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .color:hover {
+        text-decoration: none;
+        outline: none;
+        color: rgb(195, 204, 211);
+    }
+    /* Footer Section */
+    
+    #footer {
+        background: black;
+        color: white;
+        margin-top: 106px;
+    }
+    
+    .container-fluid {
+        text-align: center;
+        height: 58px;
+    }
+    
+    .icon1 {
+        margin: 8px 10px;
+        align-items: center;
+    }
+    
+    @media only screen and (max-width:600px) {
+        #navbar1 {
+            flex-direction: column;
+        }
+        #navbar1 ul li a {
+            font-size: 0.4rem;
+        }
+        .navbar li {
+            display: inline-block;
+            font-size: 0.3rem;
+        }
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: rgb(121, 118, 118);
+            font-size: 0.7rem;
+        }
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 2px;
+            top: 1px;
+        }
+        .left img {
+            width: 50px;
+        }
+        .motoinfo p {
+            padding-top: 100px;
+            width: 280px;
+            height: 160px;
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            color: black;
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .btn1 {
+            margin-top: 240px;
+            margin-left: 60px;
+            width: 220px;
+            height: 55px;
+        }
+    }

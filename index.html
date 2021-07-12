@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title & Favicon Section -->
+    <link rel="icon" href="favicon (1).ico">
+    <title>E-Charity.com</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/36862a6ed5.js" crossorigin="anonymous"></script>
+    <!-- Css Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstarp Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+    <!--Section for logo & tabs  -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="navbar1">
+        <div class="container-fluid">
+            <!--left box for logo-->
+            <div class="left">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <!--mid box for navigation tabs-->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#Home">Home</a> </li>
+                    <li><a href="#About-Us">About </a></li>
+                    <li><a href="#Support-Us">Support </a></li>
+                    <li><a href="#Contact-Us">Contact </a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="Home">
+        <h1>Welcome to E-Charity</h1>
+        <div class="container">
+            <p>An organisation to help poor students who are in need of support and motivation.
+                <br>A Charity Program that address A CHILD’S DEVELOPMENT.</p>
+            <button class="btn btn-dark" onclick="window.location.href='payment.html'"> Donate Now <i class="fas fa-arrow-alt-circle-right"></i></button>
+        </div>
+    </section>
+    <!-- About-Us Section -->
+    <section id="About-Us">
+        <h1>About-Us</h1>
+        <div class="container-2">
+            <p><i class="fas fa-caret-square-right"></i> An organisation dedicated mainly to provide educational assistance to poor children to saving lives, protecting rights and building a better future .
+                <br><i class="fas fa-caret-square-right"></i> Our charity aimed at helping children escape poverty around the world.</p>
+        </div>
+    </section>
+    <!-- Support-Us Section -->
+    <section id="Support-Us">
+        <div class="container-3">
+            <p><i class="fa fa-quote-left" aria-hidden="true"></i> Everybody has a social responsibility to do something for<br> the society, especially to the deserving children. <i class="fa fa-quote-right " aria-hidden="true"></i></p>
+        </div>
+    </section>
+    <!-- Contact-Us Section -->
+    <section id="Contact-Us">
+        <h1>Contact-Us</h1>
+        <!-- Contact-Form Section -->
+        <div class="contact">
+            <form action="">
+                <div class="form-group">
+                    <label for="name"><i class="fa fa-user"></i> Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="phno"><i class="fa fa-mobile"></i> Phone Number: </label>
+                    <input type="phone" name="phno" id="phno" placeholder="Enter Your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fa fa-envelope"></i> Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your email">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-comment-alt"></i> Message: </label>
+                    <textarea name="message" id="message" cols="" rows=" "></textarea>
+                </div>
+                <input type="submit" id="button" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer-Section -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <i class=" icon1 fab fa-twitter"></i>
+            <i class=" icon1 fab fa-facebook-f"></i>
+            <i class=" icon1 fab fa-instagram"></i>
+            <i class=" icon1 fas fa-envelope-square"></i>
+            <p>© Copyright 2021 E-Charity. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
